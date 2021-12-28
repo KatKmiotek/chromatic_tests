@@ -19,7 +19,7 @@
   "scripts": {
     "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
     "build": "SKIP_PREFLIGHT_CHECK=true react-scripts build",
-    "test": "react-scripts test",
+    "test": "SKIP_PREFLIGHT_CHECK=true react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
@@ -60,6 +60,12 @@
     "@storybook/node-logger": "^6.4.9",
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.4.9",
-    "chromatic": "^6.2.3"
+    "@storybook/testing-react": "^1.2.2",
+    "chromatic": "^6.2.3",
+    "msw": "^0.36.3",
+    "msw-storybook-addon": "^1.5.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
