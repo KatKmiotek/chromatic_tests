@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect';
 import { render, waitFor, cleanup, within, fireEvent } from '@testing-library/react';
 import { composeStories } from '@storybook/testing-react';
 import { getWorker } from 'msw-storybook-addon';
-import * as stories from './InboxScreen.stories';
+import * as stories from './inboxScreen.stories';
 
 describe('InboxScreen', () => {
   afterEach(() => {
