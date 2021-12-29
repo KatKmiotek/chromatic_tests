@@ -51,6 +51,7 @@ export const Task = ({
         isTruncated
         value={title}
         onChange={(e) => onEditTitle(e.target.value, id)}
+        className="chromatic-ignore"
       />
     </Box>
     <IconButton

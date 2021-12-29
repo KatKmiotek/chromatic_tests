@@ -35,7 +35,7 @@ export const Archived = Template.bind({});
 Archived.args = {
   task: {
     id: '3',
-    title: 'Write schema for account menu',
+    title: 'Testing string value',
     state: 'TASK_ARCHIVED',
   },
 };
